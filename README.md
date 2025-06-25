@@ -3,6 +3,13 @@
 ## Descrição
 Projeto de Machine Learning para predição de cancelamento (churn) de clientes em empresas de telecomunicações usando redes neurais. Desenvolvido como trabalho da disciplina de Inteligência Artificial e Aprendizado de Máquina - UNISINOS.
 
+## Por que esse dataset é interessante para o projeto final? 
+A retenção de clientes é um tema comum dentro do setor de telecomunicações, e o Brasil tem mais de 10 mil provedores de Internet no Brasil. O uso de Redes neurais são justificadas porque o churn é um problema complexo e não-linear que requer capacidade avançada de reconhecimento de padrões.
+No trabalho apresentado, depende da interação entre 21 variáveis (tempo de contrato + tipo de serviço + valor + comportamento, etc). Redes neurais capturam essas interações ocultas que algoritmos lineares muitas vezes não conseguem detectar.
+
+## Qual problema real ele representa? 
+	Representa um problema enfrentando por todas as empresas de telecomunicações, visto a gama de prestadores que estão competindo e poder prever e prevenir o churn pode trazer economia no caixa da empresa, tanto no quesito aquisição de clientes, quanto na prevenção da perda. 
+
 ## Dataset
 - **Fonte**: Telco Customer Churn (Kaggle)
 - **Registros**: 7.043 clientes
@@ -43,7 +50,10 @@ Implementados dois métodos de análise:
 - Análise comparativa com visualizações
 
 ## Conclusão
-A rede neural apresentou boa performance mas foi superada pela Regressão Logística. Para este dataset tabular específico, algoritmos mais simples se mostraram mais eficazes. O projeto demonstra que nem sempre maior complexidade resulta em melhor performance, sendo importante avaliar diferentes abordagens para cada problema.
+O projeto conseguiu implementar uma rede neural para predição de Churn, respondendo às questões principais sobre comportamento dos clientes. A análise revelou que clientes novos (0-12 meses), com contratos mensais e sem serviços adicionais têm maior propensão ao cancelamento.
+
+Embora a rede neural tenha apresentado boa performance, a Regressão Logística se mostrou ligeiramente superior. Isso demonstra que para datasets tabulares menores como este, algoritmos mais simples podem ser mais eficazes que redes neurais complexas. Escolha do algoritmo deve sempre considerar a natureza dos dados.
+
 
 ## Requisitos
 - Python 3.8+
