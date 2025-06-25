@@ -8,7 +8,7 @@ A retenção de clientes é um tema comum dentro do setor de telecomunicações,
 No trabalho apresentado, depende da interação entre 21 variáveis (tempo de contrato + tipo de serviço + valor + comportamento, etc). Redes neurais capturam essas interações ocultas que algoritmos lineares muitas vezes não conseguem detectar.
 
 ## Qual problema real ele representa? 
-	Representa um problema enfrentando por todas as empresas de telecomunicações, visto a gama de prestadores que estão competindo e poder prever e prevenir o churn pode trazer economia no caixa da empresa, tanto no quesito aquisição de clientes, quanto na prevenção da perda. 
+Representa um problema enfrentando por todas as empresas de telecomunicações, visto a gama de prestadores que estão competindo e poder prever e prevenir o churn pode trazer economia no caixa da empresa, tanto no quesito aquisição de clientes, quanto na prevenção da perda.
 
 ## Dataset
 - **Fonte**: Telco Customer Churn (Kaggle)
